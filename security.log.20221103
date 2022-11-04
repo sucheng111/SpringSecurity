@@ -1,0 +1,187 @@
+11-03 09:35:27.495 [main] [INFO ] Starting SecurityApplication using Java 1.8.0_212 on LAPTOP-SPVFC2D5 with PID 17016 (D:\BaiduNetdiskDownload\代码\SpringSecurity\target\classes started by 苏成 in D:\BaiduNetdiskDownload\代码\SpringSecurity) - com.su.SecurityApplication:55
+11-03 09:35:27.501 [main] [INFO ] No active profile set, falling back to 1 default profile: "default" - com.su.SecurityApplication:634
+11-03 09:35:28.153 [main] [INFO ] Multiple Spring Data modules found, entering strict repository configuration mode - o.s.d.r.c.RepositoryConfigurationDelegate:262
+11-03 09:35:28.155 [main] [INFO ] Bootstrapping Spring Data Redis repositories in DEFAULT mode. - o.s.d.r.c.RepositoryConfigurationDelegate:132
+11-03 09:35:28.175 [main] [INFO ] Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces. - o.s.d.r.c.RepositoryConfigurationDelegate:201
+11-03 09:35:28.659 [main] [INFO ] Tomcat initialized with port(s): 8080 (http) - o.s.b.w.e.tomcat.TomcatWebServer:108
+11-03 09:35:28.667 [main] [INFO ] Initializing ProtocolHandler ["http-nio-8080"] - o.a.coyote.http11.Http11NioProtocol:173
+11-03 09:35:28.668 [main] [INFO ] Starting service [Tomcat] - o.a.catalina.core.StandardService:173
+11-03 09:35:28.669 [main] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.65] - o.a.catalina.core.StandardEngine:173
+11-03 09:35:28.888 [main] [INFO ] Initializing Spring embedded WebApplicationContext - o.a.c.c.C.[Tomcat].[localhost].[/]:173
+11-03 09:35:28.888 [main] [INFO ] Root WebApplicationContext: initialization completed in 1338 ms - o.s.b.w.s.c.ServletWebServerApplicationContext:292
+11-03 09:35:30.303 [main] [INFO ] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@9687f55, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5700c9db, org.springframework.security.web.context.SecurityContextPersistenceFilter@40709f9, org.springframework.security.web.header.HeaderWriterFilter@76ff68c5, org.springframework.security.web.authentication.logout.LogoutFilter@6ac4c3f7, com.su.filter.JwtAuthenticationTokenFilter@38bb9d7a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6393bf8b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1f87607c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@671d03bb, org.springframework.security.web.session.SessionManagementFilter@6adc5b9c, org.springframework.security.web.access.ExceptionTranslationFilter@8a6631b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@65ef48f2] - o.s.s.w.DefaultSecurityFilterChain:55
+11-03 09:35:30.341 [main] [INFO ] Starting ProtocolHandler ["http-nio-8080"] - o.a.coyote.http11.Http11NioProtocol:173
+11-03 09:35:30.355 [main] [INFO ] Tomcat started on port(s): 8080 (http) with context path '' - o.s.b.w.e.tomcat.TomcatWebServer:220
+11-03 09:35:30.365 [main] [INFO ] Started SecurityApplication in 3.406 seconds (JVM running for 4.196) - com.su.SecurityApplication:61
+11-03 09:36:44.827 [http-nio-8080-exec-1] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet' - o.a.c.c.C.[Tomcat].[localhost].[/]:173
+11-03 09:36:44.827 [http-nio-8080-exec-1] [INFO ] Initializing Servlet 'dispatcherServlet' - o.s.web.servlet.DispatcherServlet:525
+11-03 09:36:44.832 [http-nio-8080-exec-1] [INFO ] Completed initialization in 4 ms - o.s.web.servlet.DispatcherServlet:547
+11-03 09:36:45.123 [http-nio-8080-exec-1] [INFO ] redis key from token:login:1 - com.su.JwtAuthenticationTokenFilter:47
+11-03 09:36:45.691 [http-nio-8080-exec-1] [INFO ] concurrent user:LoginUser(user=User(id=1, userName=sucheng, nickName=shuaige, password=$2a$10$P6SUCh/pUOd5OqJ7aVO9u.il2mjSEksq5.XsCpF.SB8Z1hI05sfJC, status=1, email=2939428398@qq.com, phonenumber=17819744481, sex=null, avatar=null, userType=1, createBy=1, createTime=Tue Nov 01 23:57:15 CST 2022, updateBy=1, updateTime=Tue Nov 01 23:56:52 CST 2022, delFlag=0)) - com.su.JwtAuthenticationTokenFilter:53
+11-03 09:37:43.120 [http-nio-8080-exec-3] [INFO ] HikariPool-1 - Starting... - com.zaxxer.hikari.HikariDataSource:110
+11-03 09:37:43.344 [http-nio-8080-exec-3] [INFO ] HikariPool-1 - Start completed. - com.zaxxer.hikari.HikariDataSource:123
+11-03 09:43:19.059 [main] [ERROR] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'logging.level' to java.util.Map<java.lang.String, org.springframework.boot.logging.LogLevel>:
+
+    Property: logging.level
+    Value: "com.su.dao.mapper=DEBUG"
+    Origin: class path resource [application.yaml] - 9:10
+    Reason: org.springframework.core.convert.ConverterNotFoundException: No converter found capable of converting from type [java.lang.String] to type [java.util.Map<java.lang.String, org.springframework.boot.logging.LogLevel>]
+
+Action:
+
+Update your application's configuration
+ - o.s.b.d.LoggingFailureAnalysisReporter:40
+11-03 09:49:26.783 [main] [INFO ] Starting SecurityApplication using Java 1.8.0_212 on LAPTOP-SPVFC2D5 with PID 12864 (D:\BaiduNetdiskDownload\代码\SpringSecurity\target\classes started by 苏成 in D:\BaiduNetdiskDownload\代码\SpringSecurity) - com.su.SecurityApplication:55
+11-03 09:49:26.786 [main] [INFO ] No active profile set, falling back to 1 default profile: "default" - com.su.SecurityApplication:634
+11-03 09:49:27.478 [main] [INFO ] Multiple Spring Data modules found, entering strict repository configuration mode - o.s.d.r.c.RepositoryConfigurationDelegate:262
+11-03 09:49:27.480 [main] [INFO ] Bootstrapping Spring Data Redis repositories in DEFAULT mode. - o.s.d.r.c.RepositoryConfigurationDelegate:132
+11-03 09:49:27.502 [main] [INFO ] Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces. - o.s.d.r.c.RepositoryConfigurationDelegate:201
+11-03 09:49:28.071 [main] [INFO ] Tomcat initialized with port(s): 8080 (http) - o.s.b.w.e.tomcat.TomcatWebServer:108
+11-03 09:49:28.081 [main] [INFO ] Initializing ProtocolHandler ["http-nio-8080"] - o.a.coyote.http11.Http11NioProtocol:173
+11-03 09:49:28.082 [main] [INFO ] Starting service [Tomcat] - o.a.catalina.core.StandardService:173
+11-03 09:49:28.082 [main] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.65] - o.a.catalina.core.StandardEngine:173
+11-03 09:49:28.249 [main] [INFO ] Initializing Spring embedded WebApplicationContext - o.a.c.c.C.[Tomcat].[localhost].[/]:173
+11-03 09:49:28.249 [main] [INFO ] Root WebApplicationContext: initialization completed in 1417 ms - o.s.b.w.s.c.ServletWebServerApplicationContext:292
+11-03 09:49:29.786 [main] [INFO ] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@208205ed, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@73afe2b7, org.springframework.security.web.context.SecurityContextPersistenceFilter@6adc5b9c, org.springframework.security.web.header.HeaderWriterFilter@4bc59b27, org.springframework.security.web.authentication.logout.LogoutFilter@33bb3f86, com.su.filter.JwtAuthenticationTokenFilter@4b790d86, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@40709f9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7d42542, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@9687f55, org.springframework.security.web.session.SessionManagementFilter@83bb0f, org.springframework.security.web.access.ExceptionTranslationFilter@51e3d37e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7186b202] - o.s.s.w.DefaultSecurityFilterChain:55
+11-03 09:49:29.832 [main] [INFO ] Starting ProtocolHandler ["http-nio-8080"] - o.a.coyote.http11.Http11NioProtocol:173
+11-03 09:49:29.846 [main] [INFO ] Tomcat started on port(s): 8080 (http) with context path '' - o.s.b.w.e.tomcat.TomcatWebServer:220
+11-03 09:49:29.856 [main] [INFO ] Started SecurityApplication in 3.627 seconds (JVM running for 4.417) - com.su.SecurityApplication:61
+11-03 09:50:25.414 [http-nio-8080-exec-1] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet' - o.a.c.c.C.[Tomcat].[localhost].[/]:173
+11-03 09:50:25.415 [http-nio-8080-exec-1] [INFO ] Initializing Servlet 'dispatcherServlet' - o.s.web.servlet.DispatcherServlet:525
+11-03 09:50:25.416 [http-nio-8080-exec-1] [INFO ] Completed initialization in 1 ms - o.s.web.servlet.DispatcherServlet:547
+11-03 09:50:25.740 [http-nio-8080-exec-1] [INFO ] redis key from token:login:1 - com.su.JwtAuthenticationTokenFilter:47
+11-03 09:50:26.365 [http-nio-8080-exec-1] [INFO ] concurrent user:LoginUser(user=User(id=1, userName=sucheng, nickName=shuaige, password=$2a$10$P6SUCh/pUOd5OqJ7aVO9u.il2mjSEksq5.XsCpF.SB8Z1hI05sfJC, status=1, email=2939428398@qq.com, phonenumber=17819744481, sex=null, avatar=null, userType=1, createBy=1, createTime=Tue Nov 01 23:57:15 CST 2022, updateBy=1, updateTime=Tue Nov 01 23:56:52 CST 2022, delFlag=0)) - com.su.JwtAuthenticationTokenFilter:53
+11-03 09:50:44.827 [http-nio-8080-exec-3] [INFO ] HikariPool-1 - Starting... - com.zaxxer.hikari.HikariDataSource:110
+11-03 09:50:45.148 [http-nio-8080-exec-3] [INFO ] HikariPool-1 - Start completed. - com.zaxxer.hikari.HikariDataSource:123
+11-03 09:50:45.154 [http-nio-8080-exec-3] [DEBUG] ==>  Preparing: SELECT id,user_name,nick_name,password,status,email,phonenumber,sex,avatar,user_type,create_by,create_time,update_by,update_time,del_flag FROM sys_user WHERE (user_name = ?) - c.s.dao.mapper.UserMapper.selectOne:137
+11-03 09:50:45.181 [http-nio-8080-exec-3] [DEBUG] ==> Parameters: sucheng(String) - c.s.dao.mapper.UserMapper.selectOne:137
+11-03 09:50:45.229 [http-nio-8080-exec-3] [DEBUG] <==      Total: 1 - c.s.dao.mapper.UserMapper.selectOne:137
+11-03 09:52:24.334 [main] [ERROR] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'logging.level' to java.util.Map<java.lang.String, org.springframework.boot.logging.LogLevel>:
+
+    Property: logging.level
+    Value: "com.su.dao.mapper:info"
+    Origin: class path resource [application.yaml] - 10:5
+    Reason: org.springframework.core.convert.ConverterNotFoundException: No converter found capable of converting from type [java.lang.String] to type [java.util.Map<java.lang.String, org.springframework.boot.logging.LogLevel>]
+
+Action:
+
+Update your application's configuration
+ - o.s.b.d.LoggingFailureAnalysisReporter:40
+11-03 09:53:10.210 [main] [INFO ] Starting SecurityApplication using Java 1.8.0_212 on LAPTOP-SPVFC2D5 with PID 13676 (D:\BaiduNetdiskDownload\代码\SpringSecurity\target\classes started by 苏成 in D:\BaiduNetdiskDownload\代码\SpringSecurity) - com.su.SecurityApplication:55
+11-03 09:53:10.213 [main] [INFO ] No active profile set, falling back to 1 default profile: "default" - com.su.SecurityApplication:634
+11-03 09:53:10.858 [main] [INFO ] Multiple Spring Data modules found, entering strict repository configuration mode - o.s.d.r.c.RepositoryConfigurationDelegate:262
+11-03 09:53:10.861 [main] [INFO ] Bootstrapping Spring Data Redis repositories in DEFAULT mode. - o.s.d.r.c.RepositoryConfigurationDelegate:132
+11-03 09:53:10.884 [main] [INFO ] Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces. - o.s.d.r.c.RepositoryConfigurationDelegate:201
+11-03 09:53:11.380 [main] [INFO ] Tomcat initialized with port(s): 8080 (http) - o.s.b.w.e.tomcat.TomcatWebServer:108
+11-03 09:53:11.389 [main] [INFO ] Initializing ProtocolHandler ["http-nio-8080"] - o.a.coyote.http11.Http11NioProtocol:173
+11-03 09:53:11.389 [main] [INFO ] Starting service [Tomcat] - o.a.catalina.core.StandardService:173
+11-03 09:53:11.390 [main] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.65] - o.a.catalina.core.StandardEngine:173
+11-03 09:53:11.555 [main] [INFO ] Initializing Spring embedded WebApplicationContext - o.a.c.c.C.[Tomcat].[localhost].[/]:173
+11-03 09:53:11.555 [main] [INFO ] Root WebApplicationContext: initialization completed in 1289 ms - o.s.b.w.s.c.ServletWebServerApplicationContext:292
+11-03 09:53:13.019 [main] [INFO ] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@65ef48f2, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@36068727, org.springframework.security.web.context.SecurityContextPersistenceFilter@3332c7a5, org.springframework.security.web.header.HeaderWriterFilter@4f486211, org.springframework.security.web.authentication.logout.LogoutFilter@56b8aaf1, com.su.filter.JwtAuthenticationTokenFilter@554f0dfb, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3e39baf0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6b1b19cf, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@72543547, org.springframework.security.web.session.SessionManagementFilter@1da1380b, org.springframework.security.web.access.ExceptionTranslationFilter@4a50d04a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1fd7a37] - o.s.s.w.DefaultSecurityFilterChain:55
+11-03 09:53:13.059 [main] [INFO ] Starting ProtocolHandler ["http-nio-8080"] - o.a.coyote.http11.Http11NioProtocol:173
+11-03 09:53:13.074 [main] [INFO ] Tomcat started on port(s): 8080 (http) with context path '' - o.s.b.w.e.tomcat.TomcatWebServer:220
+11-03 09:53:13.084 [main] [INFO ] Started SecurityApplication in 3.311 seconds (JVM running for 4.007) - com.su.SecurityApplication:61
+11-03 09:53:20.326 [http-nio-8080-exec-1] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet' - o.a.c.c.C.[Tomcat].[localhost].[/]:173
+11-03 09:53:20.326 [http-nio-8080-exec-1] [INFO ] Initializing Servlet 'dispatcherServlet' - o.s.web.servlet.DispatcherServlet:525
+11-03 09:53:20.327 [http-nio-8080-exec-1] [INFO ] Completed initialization in 0 ms - o.s.web.servlet.DispatcherServlet:547
+11-03 09:53:20.601 [http-nio-8080-exec-1] [INFO ] HikariPool-1 - Starting... - com.zaxxer.hikari.HikariDataSource:110
+11-03 09:53:21.064 [http-nio-8080-exec-1] [INFO ] HikariPool-1 - Start completed. - com.zaxxer.hikari.HikariDataSource:123
+11-03 10:03:04.646 [main] [INFO ] Starting SecurityApplication using Java 1.8.0_212 on LAPTOP-SPVFC2D5 with PID 22564 (D:\BaiduNetdiskDownload\代码\SpringSecurity\target\classes started by 苏成 in D:\BaiduNetdiskDownload\代码\SpringSecurity) - com.su.SecurityApplication:55
+11-03 10:03:04.650 [main] [INFO ] No active profile set, falling back to 1 default profile: "default" - com.su.SecurityApplication:634
+11-03 10:03:05.327 [main] [INFO ] Multiple Spring Data modules found, entering strict repository configuration mode - o.s.d.r.c.RepositoryConfigurationDelegate:262
+11-03 10:03:05.329 [main] [INFO ] Bootstrapping Spring Data Redis repositories in DEFAULT mode. - o.s.d.r.c.RepositoryConfigurationDelegate:132
+11-03 10:03:05.353 [main] [INFO ] Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces. - o.s.d.r.c.RepositoryConfigurationDelegate:201
+11-03 10:03:05.852 [main] [INFO ] Tomcat initialized with port(s): 8080 (http) - o.s.b.w.e.tomcat.TomcatWebServer:108
+11-03 10:03:05.862 [main] [INFO ] Initializing ProtocolHandler ["http-nio-8080"] - o.a.coyote.http11.Http11NioProtocol:173
+11-03 10:03:05.862 [main] [INFO ] Starting service [Tomcat] - o.a.catalina.core.StandardService:173
+11-03 10:03:05.863 [main] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.65] - o.a.catalina.core.StandardEngine:173
+11-03 10:03:06.026 [main] [INFO ] Initializing Spring embedded WebApplicationContext - o.a.c.c.C.[Tomcat].[localhost].[/]:173
+11-03 10:03:06.026 [main] [INFO ] Root WebApplicationContext: initialization completed in 1315 ms - o.s.b.w.s.c.ServletWebServerApplicationContext:292
+11-03 10:03:07.555 [main] [INFO ] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@738d37fc, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6fa2448b, org.springframework.security.web.context.SecurityContextPersistenceFilter@1e225820, org.springframework.security.web.header.HeaderWriterFilter@33bb3f86, org.springframework.security.web.authentication.logout.LogoutFilter@62b57479, com.su.filter.JwtAuthenticationTokenFilter@38bb9d7a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2a2dc0a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2ec99035, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@61bb1e4d, org.springframework.security.web.session.SessionManagementFilter@14168e1, org.springframework.security.web.access.ExceptionTranslationFilter@5482bcac, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7fedb795] - o.s.s.w.DefaultSecurityFilterChain:55
+11-03 10:03:07.599 [main] [INFO ] Starting ProtocolHandler ["http-nio-8080"] - o.a.coyote.http11.Http11NioProtocol:173
+11-03 10:03:07.615 [main] [INFO ] Tomcat started on port(s): 8080 (http) with context path '' - o.s.b.w.e.tomcat.TomcatWebServer:220
+11-03 10:03:07.627 [main] [INFO ] Started SecurityApplication in 3.534 seconds (JVM running for 4.343) - com.su.SecurityApplication:61
+11-03 10:03:13.543 [http-nio-8080-exec-1] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet' - o.a.c.c.C.[Tomcat].[localhost].[/]:173
+11-03 10:03:13.543 [http-nio-8080-exec-1] [INFO ] Initializing Servlet 'dispatcherServlet' - o.s.web.servlet.DispatcherServlet:525
+11-03 10:03:13.544 [http-nio-8080-exec-1] [INFO ] Completed initialization in 1 ms - o.s.web.servlet.DispatcherServlet:547
+11-03 10:03:13.836 [http-nio-8080-exec-1] [INFO ] HikariPool-1 - Starting... - com.zaxxer.hikari.HikariDataSource:110
+11-03 10:03:14.353 [http-nio-8080-exec-1] [INFO ] HikariPool-1 - Start completed. - com.zaxxer.hikari.HikariDataSource:123
+11-03 10:08:45.387 [main] [INFO ] Starting SecurityApplication using Java 1.8.0_212 on LAPTOP-SPVFC2D5 with PID 22140 (D:\BaiduNetdiskDownload\代码\SpringSecurity\target\classes started by 苏成 in D:\BaiduNetdiskDownload\代码\SpringSecurity) - com.su.SecurityApplication:55
+11-03 10:08:45.391 [main] [INFO ] No active profile set, falling back to 1 default profile: "default" - com.su.SecurityApplication:634
+11-03 10:08:46.135 [main] [INFO ] Multiple Spring Data modules found, entering strict repository configuration mode - o.s.d.r.c.RepositoryConfigurationDelegate:262
+11-03 10:08:46.138 [main] [INFO ] Bootstrapping Spring Data Redis repositories in DEFAULT mode. - o.s.d.r.c.RepositoryConfigurationDelegate:132
+11-03 10:08:46.161 [main] [INFO ] Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces. - o.s.d.r.c.RepositoryConfigurationDelegate:201
+11-03 10:08:46.672 [main] [INFO ] Tomcat initialized with port(s): 8080 (http) - o.s.b.w.e.tomcat.TomcatWebServer:108
+11-03 10:08:46.681 [main] [INFO ] Initializing ProtocolHandler ["http-nio-8080"] - o.a.coyote.http11.Http11NioProtocol:173
+11-03 10:08:46.681 [main] [INFO ] Starting service [Tomcat] - o.a.catalina.core.StandardService:173
+11-03 10:08:46.682 [main] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.65] - o.a.catalina.core.StandardEngine:173
+11-03 10:08:46.838 [main] [INFO ] Initializing Spring embedded WebApplicationContext - o.a.c.c.C.[Tomcat].[localhost].[/]:173
+11-03 10:08:46.839 [main] [INFO ] Root WebApplicationContext: initialization completed in 1389 ms - o.s.b.w.s.c.ServletWebServerApplicationContext:292
+11-03 10:08:47.379 [main] [DEBUG] Property 'mapperLocations' was not specified. - c.b.m.e.s.MybatisSqlSessionFactoryBean:49
+11-03 10:08:47.756 [main] [DEBUG] addMappedStatement: com.su.dao.mapper.UserMapper.insert - c.b.m.core.MybatisConfiguration:96
+11-03 10:08:47.761 [main] [DEBUG] addMappedStatement: com.su.dao.mapper.UserMapper.delete - c.b.m.core.MybatisConfiguration:96
+11-03 10:08:47.765 [main] [DEBUG] addMappedStatement: com.su.dao.mapper.UserMapper.deleteByMap - c.b.m.core.MybatisConfiguration:96
+11-03 10:08:47.782 [main] [DEBUG] addMappedStatement: com.su.dao.mapper.UserMapper.deleteById - c.b.m.core.MybatisConfiguration:96
+11-03 10:08:47.784 [main] [DEBUG] addMappedStatement: com.su.dao.mapper.UserMapper.deleteBatchIds - c.b.m.core.MybatisConfiguration:96
+11-03 10:08:47.789 [main] [DEBUG] addMappedStatement: com.su.dao.mapper.UserMapper.update - c.b.m.core.MybatisConfiguration:96
+11-03 10:08:47.793 [main] [DEBUG] addMappedStatement: com.su.dao.mapper.UserMapper.updateById - c.b.m.core.MybatisConfiguration:96
+11-03 10:08:47.793 [main] [DEBUG] addMappedStatement: com.su.dao.mapper.UserMapper.selectById - c.b.m.core.MybatisConfiguration:96
+11-03 10:08:47.795 [main] [DEBUG] addMappedStatement: com.su.dao.mapper.UserMapper.selectBatchIds - c.b.m.core.MybatisConfiguration:96
+11-03 10:08:47.797 [main] [DEBUG] addMappedStatement: com.su.dao.mapper.UserMapper.selectByMap - c.b.m.core.MybatisConfiguration:96
+11-03 10:08:47.799 [main] [DEBUG] addMappedStatement: com.su.dao.mapper.UserMapper.selectOne - c.b.m.core.MybatisConfiguration:96
+11-03 10:08:47.802 [main] [DEBUG] addMappedStatement: com.su.dao.mapper.UserMapper.selectCount - c.b.m.core.MybatisConfiguration:96
+11-03 10:08:47.804 [main] [DEBUG] addMappedStatement: com.su.dao.mapper.UserMapper.selectMaps - c.b.m.core.MybatisConfiguration:96
+11-03 10:08:47.806 [main] [DEBUG] addMappedStatement: com.su.dao.mapper.UserMapper.selectMapsPage - c.b.m.core.MybatisConfiguration:96
+11-03 10:08:47.811 [main] [DEBUG] addMappedStatement: com.su.dao.mapper.UserMapper.selectObjs - c.b.m.core.MybatisConfiguration:96
+11-03 10:08:47.813 [main] [DEBUG] addMappedStatement: com.su.dao.mapper.UserMapper.selectList - c.b.m.core.MybatisConfiguration:96
+11-03 10:08:47.815 [main] [DEBUG] addMappedStatement: com.su.dao.mapper.UserMapper.selectPage - c.b.m.core.MybatisConfiguration:96
+11-03 10:08:48.329 [main] [INFO ] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5c134052, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@69de5bed, org.springframework.security.web.context.SecurityContextPersistenceFilter@526e8108, org.springframework.security.web.header.HeaderWriterFilter@8aeab9e, org.springframework.security.web.authentication.logout.LogoutFilter@5b202ff, com.su.filter.JwtAuthenticationTokenFilter@761e788f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4a9860, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3db432c2, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@750f64fe, org.springframework.security.web.session.SessionManagementFilter@71179b6f, org.springframework.security.web.access.ExceptionTranslationFilter@654e6a90, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@270a620] - o.s.s.w.DefaultSecurityFilterChain:55
+11-03 10:08:48.370 [main] [INFO ] Starting ProtocolHandler ["http-nio-8080"] - o.a.coyote.http11.Http11NioProtocol:173
+11-03 10:08:48.385 [main] [INFO ] Tomcat started on port(s): 8080 (http) with context path '' - o.s.b.w.e.tomcat.TomcatWebServer:220
+11-03 10:08:48.394 [main] [INFO ] Started SecurityApplication in 3.474 seconds (JVM running for 4.165) - com.su.SecurityApplication:61
+11-03 10:08:54.949 [http-nio-8080-exec-1] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet' - o.a.c.c.C.[Tomcat].[localhost].[/]:173
+11-03 10:08:54.949 [http-nio-8080-exec-1] [INFO ] Initializing Servlet 'dispatcherServlet' - o.s.web.servlet.DispatcherServlet:525
+11-03 10:08:54.950 [http-nio-8080-exec-1] [INFO ] Completed initialization in 1 ms - o.s.web.servlet.DispatcherServlet:547
+11-03 10:08:55.212 [http-nio-8080-exec-1] [INFO ] HikariPool-1 - Starting... - com.zaxxer.hikari.HikariDataSource:110
+11-03 10:08:55.684 [http-nio-8080-exec-1] [INFO ] HikariPool-1 - Start completed. - com.zaxxer.hikari.HikariDataSource:123
+11-03 10:08:55.694 [http-nio-8080-exec-1] [DEBUG] ==>  Preparing: SELECT id,user_name,nick_name,password,status,email,phonenumber,sex,avatar,user_type,create_by,create_time,update_by,update_time,del_flag FROM sys_user WHERE (user_name = ?) - c.s.dao.mapper.UserMapper.selectOne:137
+11-03 10:08:55.714 [http-nio-8080-exec-1] [DEBUG] ==> Parameters: sucheng(String) - c.s.dao.mapper.UserMapper.selectOne:137
+11-03 10:08:55.743 [http-nio-8080-exec-1] [DEBUG] <==      Total: 1 - c.s.dao.mapper.UserMapper.selectOne:137
+11-03 10:10:36.158 [main] [INFO ] Starting SecurityApplication using Java 1.8.0_212 on LAPTOP-SPVFC2D5 with PID 28948 (D:\BaiduNetdiskDownload\代码\SpringSecurity\target\classes started by 苏成 in D:\BaiduNetdiskDownload\代码\SpringSecurity) - com.su.SecurityApplication:55
+11-03 10:10:36.163 [main] [INFO ] No active profile set, falling back to 1 default profile: "default" - com.su.SecurityApplication:634
+11-03 10:10:36.828 [main] [INFO ] Multiple Spring Data modules found, entering strict repository configuration mode - o.s.d.r.c.RepositoryConfigurationDelegate:262
+11-03 10:10:36.830 [main] [INFO ] Bootstrapping Spring Data Redis repositories in DEFAULT mode. - o.s.d.r.c.RepositoryConfigurationDelegate:132
+11-03 10:10:36.852 [main] [INFO ] Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces. - o.s.d.r.c.RepositoryConfigurationDelegate:201
+11-03 10:10:37.321 [main] [INFO ] Tomcat initialized with port(s): 8080 (http) - o.s.b.w.e.tomcat.TomcatWebServer:108
+11-03 10:10:37.328 [main] [INFO ] Initializing ProtocolHandler ["http-nio-8080"] - o.a.coyote.http11.Http11NioProtocol:173
+11-03 10:10:37.328 [main] [INFO ] Starting service [Tomcat] - o.a.catalina.core.StandardService:173
+11-03 10:10:37.329 [main] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.65] - o.a.catalina.core.StandardEngine:173
+11-03 10:10:37.470 [main] [INFO ] Initializing Spring embedded WebApplicationContext - o.a.c.c.C.[Tomcat].[localhost].[/]:173
+11-03 10:10:37.471 [main] [INFO ] Root WebApplicationContext: initialization completed in 1247 ms - o.s.b.w.s.c.ServletWebServerApplicationContext:292
+11-03 10:10:38.827 [main] [INFO ] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@31973858, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@65514add, org.springframework.security.web.context.SecurityContextPersistenceFilter@1946384, org.springframework.security.web.header.HeaderWriterFilter@2a8a3ada, org.springframework.security.web.authentication.logout.LogoutFilter@7ca16adc, com.su.filter.JwtAuthenticationTokenFilter@62db3891, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7412a438, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@654e6a90, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@79e7188e, org.springframework.security.web.session.SessionManagementFilter@721d8ab5, org.springframework.security.web.access.ExceptionTranslationFilter@6ddee60f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@39dec536] - o.s.s.w.DefaultSecurityFilterChain:55
+11-03 10:10:38.872 [main] [INFO ] Starting ProtocolHandler ["http-nio-8080"] - o.a.coyote.http11.Http11NioProtocol:173
+11-03 10:10:38.897 [main] [INFO ] Tomcat started on port(s): 8080 (http) with context path '' - o.s.b.w.e.tomcat.TomcatWebServer:220
+11-03 10:10:38.927 [main] [INFO ] Started SecurityApplication in 3.234 seconds (JVM running for 3.935) - com.su.SecurityApplication:61
+11-03 10:10:43.220 [http-nio-8080-exec-1] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet' - o.a.c.c.C.[Tomcat].[localhost].[/]:173
+11-03 10:10:43.221 [http-nio-8080-exec-1] [INFO ] Initializing Servlet 'dispatcherServlet' - o.s.web.servlet.DispatcherServlet:525
+11-03 10:10:43.222 [http-nio-8080-exec-1] [INFO ] Completed initialization in 1 ms - o.s.web.servlet.DispatcherServlet:547
+11-03 10:10:43.493 [http-nio-8080-exec-1] [INFO ] HikariPool-1 - Starting... - com.zaxxer.hikari.HikariDataSource:110
+11-03 10:10:43.927 [http-nio-8080-exec-1] [INFO ] HikariPool-1 - Start completed. - com.zaxxer.hikari.HikariDataSource:123
+11-03 12:43:27.747 [HikariPool-1 housekeeper] [WARN ] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=32m11s898ms895µs). - com.zaxxer.hikari.pool.HikariPool:788
